@@ -1,0 +1,15 @@
+.intro {
+  width: 60%;
+  margin: auto;
+}
+
+.photo {
+  margin: 6rem 0 2rem;
+  width: 70rem;
+}
+
+.profile {
+  margin: 0 5rem;
+  padding-bottom: 5rem;
+  background-color: white;
+}

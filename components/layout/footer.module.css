@@ -1,0 +1,12 @@
+.footer {
+  background-color: #89866E;
+  padding: 2rem 0 2rem;
+}
+
+.margin {
+  margin-top: 1em;
+}
+
+.icon:hover {
+  color: green;
+}

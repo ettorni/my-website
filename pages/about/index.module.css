@@ -1,0 +1,18 @@
+.topContainer {
+  padding-top: 10rem;
+}
+
+.textColor {
+  color: #83858a;
+}
+
+.text {
+  line-height: 2.5rem;
+  margin-right: 5rem;
+  text-align: left;
+}
+
+.left {
+  text-align: left;
+  padding-top: 2rem;
+}
