@@ -1,18 +1,9 @@
-import Image from "next/image";
-import classes from "./aboutIntro.module.css";
+import classes from "./aboutIntroMobile.module.css";
 
-function AboutIntro() {
+function AboutIntroMobile() {
   return (
     <div className={classes.topContainer + " row"}>
-      <div className={"col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
-        <Image
-          src="/images/about2.jpg"
-          width={562.5}
-          height={750}
-          layout="intrinsic"
-        />
-      </div>
-      <div className={"col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
+      <div className={classes.photo}>
         <h2 className={classes.text}>About</h2>
         <hr className={classes.override} />
         <p className={classes.text}>
@@ -34,4 +25,4 @@ function AboutIntro() {
   );
 }
 
-export default AboutIntro;
+export default AboutIntroMobile;

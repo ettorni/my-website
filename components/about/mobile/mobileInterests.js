@@ -1,12 +1,11 @@
-import Image from "next/image";
-import classes from "./interests.module.css";
+import classes from "./mobileInterests.module.css";
 
-function Interests() {
+function MobileInterests() {
   return (
     <div className={classes.container}>
       <h2> Interests and Hobbies</h2>
       <div className={"row " + classes.margin}>
-        <div className={classes.ltext + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
+        <div className={classes.text + " col-xs-6 " + classes.photo1}>
           <h3>Soccer</h3>
           <p>
             I have always been a huge fan of soccer. Although it did not last
@@ -15,26 +14,9 @@ function Interests() {
             and Zidane.
           </p>
         </div>
-
-        <div className={classes.rimage + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
-          <Image
-            src="/images/soccer.png"
-            layout="intrinsic"
-            width={300}
-            height={300}
-          />
-        </div>
       </div>
       <div className={"row " + classes.margin}>
-        <div className={classes.limage +" col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
-          <Image
-            src="/images/music.png"
-            layout="intrinsic"
-            width={300}
-            height={300}
-          />
-        </div>
-        <div className={classes.rtext + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
+        <div className={classes.text + " col-xs-6 " + classes.photo2}>
           <h3>Music</h3>
           <p>
             Even though this has never been my main interest, music in all forms
@@ -46,7 +28,7 @@ function Interests() {
         </div>
       </div>
       <div className={"row " + classes.margin}>
-        <div className={classes.ltext + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
+        <div className={classes.text + " col-xs-6 " + classes.photo3}>
           <h3>Baking</h3>
           <p>
             This is a hobby that I’ve learned to love over the quarantine. The
@@ -56,32 +38,15 @@ function Interests() {
             are brownies, cookies, and macarons.
           </p>
         </div>
-        <div className={classes.rimage + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
-          <Image
-            src="/images/baking.png"
-            layout="intrinsic"
-            width={300}
-            height={300}
-          />
-        </div>
       </div>
       <div className={"row " + classes.margin}>
-        <div className={classes.limage +" col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
-          <Image
-            src="/images/finance.png"
-            layout="intrinsic"
-            width={300}
-            height={300}
-          />
-        </div>
-        <div className={classes.rtext + " col-lg-6 col-md-6 col-sm-6 col-xs-6"}>
+        <div className={classes.text + " col-xs-6 " + classes.photo4}>
           <h3>Finance and Investment</h3>
           <p>
             Although I’m still much rather a beginner in this field, I realized
             how important it is to stay in touch and up to date on this subject.
             Trying to understand the world of finance a bit better, I found
-            myself trying to stay on top of what’s happening in the
-            world.
+            myself trying to stay on top of what’s happening in the world.
           </p>
         </div>
       </div>
@@ -89,4 +54,4 @@ function Interests() {
   );
 }
 
-export default Interests;
+export default MobileInterests;

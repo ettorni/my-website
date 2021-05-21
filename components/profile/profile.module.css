@@ -1,6 +1,9 @@
 .intro {
-  width: 60%;
-  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin-top: 3rem;
 }
 
 .photo {

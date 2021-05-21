@@ -11,7 +11,7 @@ function Profile() {
         height={824}
         layout="intrinsic"
       />
-      <h2>Hello.</h2>
+      <h2 className={classes.title}>Hello.</h2>
       <p className={classes.intro}>
         I'm also a Software Developer and a person who is always eager to learn new things.
       </p>

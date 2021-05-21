@@ -1,6 +1,12 @@
-.container {
-  padding-top: 6.25em;
-  padding-bottom: 5rem;
+.container h1 {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.container h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
 }
 
 .fadeIn {

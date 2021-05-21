@@ -7,7 +7,7 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 function MainNavigationBar() {
   const homeIcon = <FontAwesomeIcon icon={faHome} />;
   return (
-    <Navbar className={classes.bg} variant='light'>
+    <Navbar className={classes.bg} variant="light">
       <Nav.Link href="/" className={classes.font}>
         {homeIcon}
       </Nav.Link>

@@ -1,6 +1,6 @@
-import classes from "./title.module.css";
+import classes from "./titleMobile.module.css";
 
-function TitleHome() {
+function TitleHomeMobile() {
   return (
     <div className={classes.fadeIn + " " + classes.container}>
       <h1>I'm Joseph.</h1>
@@ -10,4 +10,4 @@ function TitleHome() {
   );
 }
 
-export default TitleHome;
+export default TitleHomeMobile;

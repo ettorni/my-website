@@ -50,4 +50,39 @@ hr {
   margin: 3rem auto;
 }
 
+.navbar .link {
+  overflow: hidden;
+  overflow-x: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
 
+.navbar .nav-link:hover {
+  color: green;
+}
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #ea6a47;
+  border-color: #ea6a47;
+  color: green;
+}
+
+.btn-primary.dropdown-toggle:hover {
+  color: green;
+}
+
+.btn-primary.dropdown-toggle {
+  background-color: #ea6a47;
+  border-color: #ea6a47;
+}
+
+.MuiTimelineConnector-root {
+  background-color: black;
+}
