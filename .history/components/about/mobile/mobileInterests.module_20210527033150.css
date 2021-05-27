@@ -1,0 +1,81 @@
+.text {
+  text-align: left;
+  padding: 2rem 2rem;
+  color: black;
+  font-weight: 500;
+}
+.container {
+  margin-bottom: 5rem;
+}
+
+.photo1 {
+  position: relative;
+}
+
+.photo1::before {
+  content: "";
+  background-image: url("/images/soccer.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.photo2 {
+  position: relative;
+}
+
+.photo2::before {
+  content: "";
+  background-image: url("/images/music.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.photo3 {
+  position: relative;
+}
+
+.photo3::before {
+  content: "";
+  background-image: url("/images/baking.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.photo4 {
+  position: relative;
+}
+
+.photo4::before {
+  content: "";
+  background-image: url("/images/finance.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
