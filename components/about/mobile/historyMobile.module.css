@@ -1,0 +1,24 @@
+.container {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+/* .bgphoto {
+  position: relative;
+}
+
+.bgphoto::before {
+  content: "";
+  background-image: url("/images/profile.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 2rem;
+  bottom: 0px;
+  left: 2rem;
+  opacity: 0.3;
+}
+ */
+

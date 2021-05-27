@@ -1,0 +1,65 @@
+.container {
+  padding-top: 6.25em;
+  padding-bottom: 5rem;
+}
+
+.fadeIn {
+  animation: fadeIn 3s ease-in both;
+  -webkit-animation: fadeIn 3s ease-in both;
+  -moz-animation: fadeIn 3s ease-in both;
+  -o-animation: fadeIn 3s ease-in both;
+  -ms-animation: fadeIn 3s ease-in both;
+}
+
+.fadeIn h2 {
+  animation: fadeIn 3s ease-in both;
+  -webkit-animation: fadeIn 3s ease-in both;
+  -moz-animation: fadeIn 3s ease-in both;
+  -o-animation: fadeIn 3s ease-in both;
+  -ms-animation: fadeIn 3s ease-in both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
