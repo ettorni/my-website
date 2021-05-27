@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Oswald");
+
+body {
+  color: black;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 8rem;
+  margin: 50px auto 0 auto;
+  font-family: "Oswald", serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #b9b8b8 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 3rem auto;
+}
+
+.navbar .link {
+  overflow: hidden;
+  overflow-x: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.navbar .nav-link:hover {
+  color: #3A445D;
+}
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #ea6a47;
+  border-color: #ea6a47;
+  color: #3A445D;
+}
+
+

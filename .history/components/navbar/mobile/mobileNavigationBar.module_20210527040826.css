@@ -1,0 +1,22 @@
+.bg {
+  background-color: #EA6A47;
+}
+
+.button {
+  background-color: #ea6a47;
+  border-color: #ea6a47;
+  padding-left: 1rem;
+}
+
+.button:hover {
+  background-color: 3A445D;
+  border-color: 3A445D;
+}
+
+.show{
+    background-color: 3A445D;
+}
+
+.menu {
+  text-align: left;
+}

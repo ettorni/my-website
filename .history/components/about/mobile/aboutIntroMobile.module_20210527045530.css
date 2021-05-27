@@ -1,0 +1,34 @@
+.text {
+  text-align: left;
+  margin: 0 2rem;
+  color:black;
+}
+
+.topContainer {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.override {
+  padding: 0 0.5rem;
+  margin-left: 2rem;
+}
+
+.photo {
+  position: relative;
+}
+
+.photo::before {
+  content: "";
+  background-image: url("/images/about2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  border-radius: 50%;
+  top: 10rem;
+  right: 1rem;
+  bottom: 0px;
+  left: 1rem;
+  opacity: 0.3;
+}

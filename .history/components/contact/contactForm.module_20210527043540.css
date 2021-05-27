@@ -1,0 +1,20 @@
+.main {
+  padding: 0 0 5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat"
+}
+
+.button {
+  background-color: #917B88;
+  border-color: #917B88;
+}
+
+.button:hover {
+  background-color:3A445D;
+  border-color: #3A445D;
+}
+

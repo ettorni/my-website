@@ -1,0 +1,23 @@
+.topContainer {
+  padding: 0 2rem 0;
+  position: relative;
+  left: 0;
+}
+
+
+
+.profile {
+  position: relative;
+  width: 35.15625rem;
+  height: 46.875rem;
+}
+
+.text {
+  text-align: left;
+  margin-right: 7rem;
+}
+
+.override {
+  width: 4%;
+  margin: 2rem 0 2rem;
+}
